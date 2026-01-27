@@ -59,4 +59,10 @@ for i in range (3):
                 'Las opcions posibles son A, B y C')
             exit()
         print('La puntuacion actual es ', puntuacion)
-i = i=1
+
+if puntuacion >= 25:
+    print('TE ENCANTA EL QUESO')
+elif puntuacion >= 15:
+    print('OK, MEDIO TE GUSTA EL QUESO')
+else:
+    print('NO TE GUSTA EL QUESO')
