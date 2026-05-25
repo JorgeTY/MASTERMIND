@@ -66,3 +66,14 @@ elif puntuacion >= 15:
     print('OK, MEDIO TE GUSTA EL QUESO')
 else:
     print('NO TE GUSTA EL QUESO')
+
+
+while True:
+    edad = int(input("Ingresa tu edad: "))
+
+    if edad >= 18:
+        break
+
+    print("Debes ser mayor de edad")
+
+print("Bienvenido")
