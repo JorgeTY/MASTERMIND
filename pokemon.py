@@ -35,7 +35,7 @@ while vida_pikachu > 0 and vida_squirtle > 0:
     print("Turno de squirtle")
 
     ataque_squirtle = None
-    while ataque_squirtle != 'p' and ataque_squirtle != 'a' and ataque_squirtle != 'b' and ataque_squirtle != 'n':
+    while ataque_squirtle not in ['p', 'a', 'b', 'n']:
         ataque_squirtle = input("Que ataque deseas realizar? (P)lacaje, Pistola (A)gua, (B)urbuja, (N)ada: ")
 
         if ataque_squirtle == 'p':
